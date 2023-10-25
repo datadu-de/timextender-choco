@@ -39,7 +39,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <projectUrl>https://www.timextender.com</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
     <!-- Here is an example using Githack -->
-    <iconUrl>https://timextenderresources.blob.core.windows.net/azuremarketplace/Rocket.ico</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/datadu-de/timextender-choco/d4634e835c6694555ebbba297722f8b5274b484c/TimeXtender-X-400-squared.png</iconUrl>
     <copyright>2023 TimeXtender A/S</copyright>
     <licenseUrl>https://support.timextender.com/product-updates/timextender-software-license-agreement-736</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
