@@ -1,7 +1,7 @@
+. .\variables.ps1
 
 $ErrorActionPreference = 'Stop'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://ftp-2.hostedftp.com/~timextender/TimeXtender+SaaS/TimeXtender.zip'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName   = 'TimeXtender [0-9][0-9][0-9][0-9]*'
 
-  checksum       = '4DB584BFB0E230E58CB357684E719FE1D8B5CE83D9AD433DEEE5BF6D4BF1F267'
+  checksum       = $checksum
   checksumType   = 'sha256'
 
   silentArgs     = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""

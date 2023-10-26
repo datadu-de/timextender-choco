@@ -1,1 +1,4 @@
 *.nupkg
+*.zip
+*.msi
+*.exe
